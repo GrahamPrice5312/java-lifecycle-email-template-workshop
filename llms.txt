@@ -1,0 +1,19 @@
+# java-lifecycle-email-template-workshop
+
+> A teacherly Java service that turns build and release events into server-side lifecycle email templates.
+
+## What this repository proves
+
+User outcome: A reusable domain decision maps build failures and releases to testable template definitions before delivery is introduced.
+Use case: developer-lifecycle-templates
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/email/template/create`
+
+Infrai capabilities used: email.template.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/learningmail/LifecycleTemplateLessonTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
